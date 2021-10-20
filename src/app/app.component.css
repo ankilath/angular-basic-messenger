@@ -1,0 +1,20 @@
+.chat {
+  margin-top: 2rem;
+}
+
+div.chat-content {
+  border-radius: .25rem;
+}
+
+.card {
+  height: 15rem;
+  overflow-y: auto;
+}
+
+select {
+  margin: 2% 1% 5% 0%;
+}
+
+form {
+  margin-top: 2rem;
+}

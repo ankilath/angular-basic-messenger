@@ -1,0 +1,50 @@
+{
+  "1": {
+    "name": "Olivia",
+    "id": 1,
+    "messages": [
+      {
+        "user": "Olivia",
+        "message": "Hello, how are you?"
+      },
+      {
+        "user": "You",
+        "message": "I am find thanks"
+      },
+      {
+        "user": "You",
+        "message": "What about you?"
+      },
+      {
+        "user": "Olivia",
+        "message": "Amazing, thanks :)"
+      }
+    ]
+  },
+  "2": {
+    "name": "Alexa",
+    "id": 2,
+    "messages": [
+      {
+        "user": "Alexa",
+        "message": "Hey, Wassup?"
+      },
+      {
+        "user": "You",
+        "message": "All good, U say?"
+      },
+      {
+        "user": "You",
+        "message": "Where are you these days?"
+      },
+      {
+        "user": "Alexa",
+        "message": "Amazing, thanks :)"
+      },
+      {
+        "user": "Alexa",
+        "message": "Currently in my hometown"
+      }
+    ]
+  }
+}
