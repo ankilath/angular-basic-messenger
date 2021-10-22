@@ -24,11 +24,13 @@
           >
             <strong>{{ chatMessage.user }}: </strong>
             <span>{{ chatMessage.message }}</span>
+            <span *ngIf="chatMessage.time">{{ chatMessage.time }}</span>
           </li>
         </ul>
       </div>
     </div>
-    <form (ngSubmit)="sendMessage(sendForm)" #sendForm="ngForm">
+    <form (ngSubmit)="sendMessage(sendForm)" 
+      #sendForm="ngForm">
       <div class="chat-send row">
         <div class="col-8">
           <input
@@ -36,13 +38,17 @@
             class="form-control"
             name="message"
             id="input-message"
-            ngModel
+            [(ngModel)]="inputMessage"
           />
+          <input id="image-file" type="file" (change)="uploadFile($event)"/>
         </div>
         <div class="col-4">
           <button type="submit" class="btn btn-primary">Send</button>
         </div>
       </div>
     </form>
+    <div>
+      <img [src]="imgUrl" *ngIf="imgUrl"/>
+    </div>
   </div>
 </main>
